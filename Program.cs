@@ -12,11 +12,11 @@ namespace CalculadoraIdade
             DateTime dois = new DateTime(2001, 10, 20);
 
             TimeSpan tres = um - dois;
-            string tek = dois.ToShortDateString();
+            string roma = dois.ToShortDateString();
 
             int muitolouco = tres.Days;
 
-            Console.WriteLine($"Eu Nasci em {tek} e ja vivi {muitolouco}dias");
+            Console.WriteLine($"Eu Nasci em {roma} e ja vivi {muitolouco}dias");
 
         }
     }
